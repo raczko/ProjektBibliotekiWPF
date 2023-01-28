@@ -1,0 +1,33 @@
+﻿<Window x:Class="BibliotekaWPFApp.BorrowWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BibliotekaWPFApp"
+        mc:Ignorable="d"
+        Title="BorrowWindow" Height="200" Width="200" Closed="Window_Closed">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                 <GradientStop Color="#06A4FB" Offset="0.1" />
+                 <GradientStop Color="#B84EEB" Offset="0.8" />
+        </LinearGradientBrush>
+        </Grid.Background>
+
+        <ComboBox x:Name="clientsCmb" HorizontalAlignment="Center" Margin="0,53,0,0" VerticalAlignment="Top" Width="120"
+               FontSize="15"
+               FontWeight="Bold"
+                  />
+        <Label Content="Wybierz Klienta" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top"
+               FontSize="15"
+               FontWeight="Bold"
+               />
+        <Button Content="Zapisz" HorizontalAlignment="Center" Margin="0,104,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click"
+                Background="#F08080"
+                Foreground="White"
+                FontFamily="Arial"
+                FontSize="20"
+                />
+
+    </Grid>
+</Window>
