@@ -1,5 +1,5 @@
 # BibliotekaWPFApp
-<h1>Aplikacja do zarzadznia biblotekom </h1>
+<h1>Aplikacja do zarzadznia bibloteką</h1>
 <h3><p>Wyglad aplikcacji</p></h3>
 <img src="https://github.com/ChrystianCH/BibliotekaWPFApp/blob/master/BibliotekaWPFApp/Img/Bez%C2%A0tytu%C5%82u.png">
 <p align="center">
